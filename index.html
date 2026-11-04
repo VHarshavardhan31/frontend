@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dental Clinic</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#home" class="logo">logo</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#team">Our Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="document.querySelector('.navbar').classList.toggle('active')">☰</button>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <span class="eyebrow">WELCOME TO</span>
+
+            <h1>Dental Clinic</h1>
+
+            <p class="hero-description">
+                Your smile is our passion. We provide professional dental care with modern technology and a gentle touch.
+            </p>
+
+            <ul class="contact-list">
+                <li>📍 25/7 Park Street, New York, NY</li>
+                <li>📞 +1 234 567 890</li>
+                <li>✉ info@dentalclinic.com</li>
+                <li>⏰ Mon-Sat: 9:00 AM - 7:00 PM</li>
+            </ul>
+
+            <a href="#contact" class="outline-btn">
+                BOOK APPOINTMENT
+            </a>
+
+        </div>
+
+        <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=85" alt="Dentist">
+        </div>
+
+    </section>
+
+
+    <!-- FOUR SERVICES -->
+    <section class="services" id="services">
+
+        <div class="service-card">
+            <div class="service-icon">♧</div>
+            <h3>DENTAL CARE</h3>
+            <p>Complete dental checkups and preventive care for your smile.</p>
+            <a href="#contact">MORE</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">⚒</div>
+            <h3>ORAL SURGERY</h3>
+            <p>Safe and comfortable treatments from experienced specialists.</p>
+            <a href="#contact">MORE</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">✧</div>
+            <h3>DENTAL IMPLANTS</h3>
+            <p>Restore missing teeth with natural-looking dental implants.</p>
+            <a href="#contact">MORE</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">⌁</div>
+            <h3>TEETH CLEANING</h3>
+            <p>Professional cleaning for brighter teeth and healthier gums.</p>
+            <a href="#contact">MORE</a>
+        </div>
+
+    </section>
+
+
+    <!-- MISSION VISION HISTORY -->
+    <section class="mission-section">
+
+        <h2 class="section-title">Mission, Vision & History</h2>
+
+        <div class="mission-grid">
+
+            <div class="mission-item">
+                <span class="dot"></span>
+                <div>
+                    <h3>MISSION</h3>
+                    <p>Our mission is to provide high-quality dental care in a friendly and comfortable environment. We help every patient enjoy a healthy and confident smile.</p>
+                </div>
+            </div>
+
+            <div class="mission-item">
+                <span class="dot"></span>
+                <div>
+                    <h3>VISION</h3>
+                    <p>Our vision is to become a trusted dental clinic through excellent service, modern treatments and long-lasting relationships with our patients.</p>
+                </div>
+            </div>
+
+            <div class="mission-item">
+                <span class="dot"></span>
+                <div>
+                    <h3>HISTORY</h3>
+                    <p>Started with a simple goal of making quality dental care accessible, our clinic continues to grow with experience, compassion and innovation.</p>
+                </div>
+            </div>
+
+            <div class="mission-item">
+                <span class="dot"></span>
+                <div>
+                    <h3>OUR TEAM</h3>
+                    <p>Our skilled dentists and caring staff work together to make every visit comfortable, safe and focused on your individual needs.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT US -->
+    <section class="about-section" id="about">
+
+        <div class="about-photo">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=85" alt="Dental Care">
+        </div>
+        <div class="about-content">
+
+            <span class="eyebrow">ABOUT US</span>
+
+            <h2>Dental Care<br>Services</h2>
+
+            <div class="about-columns">
+
+                <p>
+                    Dedicated to helping you achieve a healthy smile, our clinic offers personalized care for patients of all ages. We focus on comfort, prevention and quality.
+                </p>
+
+                <p>
+                    From routine checkups to advanced treatments, our experienced team uses modern equipment and gentle techniques to care for your teeth.
+                </p>
+
+            </div>
+
+            <a href="#contact" class="text-link">MORE ABOUT US</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+
+        <h2 class="section-title">What People Say?</h2>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+                <span class="quote">“</span>
+                <h3>Stella Larson</h3>
+                <p>The team was friendly and professional. They explained every step and made my visit comfortable. I am very happy with my smile!</p>
+                <small>HAPPY PATIENT</small>
+            </div>
+
+            <div class="testimonial-card">
+                <span class="quote">“</span>
+                <h3>Nick Johnson</h3>
+                <p>Great service and a welcoming clinic. The staff took wonderful care of me and the treatment was smooth from start to finish.</p>
+                <small>HAPPY PATIENT</small>
+            </div>
+
+            <div class="testimonial-card">
+                <span class="quote">“</span>
+                <h3>Olga Ivanova</h3>
+                <p>I appreciate the attention to detail and the kind doctors. Everything was clean, modern and well organized.</p>
+                <small>HAPPY PATIENT</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUALITY ORAL HEALTH CARE -->
+    <section class="quality-section">
+
+        <div class="quality-photo">
+            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=85" alt="Oral Health Care">
+        </div>
+
+        <div class="quality-content">
+
+            <span class="eyebrow">DENTISTRY CLINIC</span>
+
+            <h2>Quality Oral<br>Health Care</h2>
+
+            <p>
+                Good oral health is an important part of your overall well-being. Our team provides complete dental solutions, personalized advice and preventive care to keep your smile at its best.
+            </p>
+
+            <a href="#contact" class="outline-btn">CONTACT US</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR TEAM -->
+    <section class="team-section" id="team">
+
+        <div class="team-heading">
+
+            <h2>Our Team</h2>
+
+            <p>
+                Meet our experienced dental professionals who are dedicated to your smile.
+            </p>
+
+        </div>
+
+        <div class="team-grid">
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>GENERAL DENTIST</span>
+                <h3>Dr. Bob Brown</h3>
+                <p>Focused on preventive care and helping every patient feel comfortable.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>ORTHODONTIST</span>
+                <h3>Dr. Mary Smith</h3>
+                <p>Creating beautiful, balanced smiles with modern orthodontic care.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>DENTAL SURGEON</span>
+                <h3>Dr. Nick Dark</h3>
+                <p>Committed to precise treatment and excellent patient outcomes.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>PEDIATRIC DENTIST</span>
+                <h3>Dr. May Jackson</h3>
+                <p>Making dental visits friendly and stress-free for young patients.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>DENTAL HYGIENIST</span>
+                <h3>Dr. Betty Nilson</h3>
+                <p>Helping patients maintain healthy gums and lasting oral hygiene.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=600&q=85" alt="Doctor">
+                <span>COSMETIC DENTIST</span>
+                <h3>Dr. Adrian Scold</h3>
+                <p>Combining artistry and care to bring out every patient's best smile.</p>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">◎</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#contact" class="team-more">MEET OUR TEAM</a>
+
+    </section>
+
+
+    <!-- COSMETIC DENTISTRY -->
+    <section class="cosmetic-section">
+
+        <div class="cosmetic-content">
+
+            <span class="eyebrow">DENTISTRY CLINIC</span>
+
+            <h2>Cosmetic<br>Dentistry</h2>
+
+            <p>
+                Enhance your smile with cosmetic dental treatments designed around you. Our team combines modern techniques with a gentle approach to help you feel confident.
+            </p>
+
+            <a href="#contact" class="outline-btn">CONTACT US</a>
+
+        </div>
+
+        <div class="cosmetic-photo">
+            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=85" alt="Cosmetic Dentistry">
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT US -->
+    <section class="contact-section" id="contact">
+
+        <div class="contact-photo">
+            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=85" alt="Dental Patient">
+        </div>
+
+        <div class="contact-form-area">
+
+            <h2>Contact Us</h2>
+
+            <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been received.');">
+
+                <label for="name">NAME</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message" rows="3" placeholder="Write your message"></textarea>
+
+                <label class="check">
+                    <input type="checkbox" required>
+                    I agree to the Terms of Service
+                </label>
+
+                <button type="submit" class="submit-btn">SUBMIT</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT INFORMATION -->
+    <section class="contact-info">
+
+        <div>
+            <h3>☎ CALL US</h3>
+            <p>+1 234 567 890<br>+1 234 567 891</p>
+        </div>
+
+        <div>
+            <h3>⌖ LOCATION</h3>
+            <p>25/7 Park Street, New York, NY<br>United States</p>
+        </div>
+
+        <div>
+            <h3>◷ HOURS</h3>
+            <p>Mon-Fri: 9 AM - 7 PM<br>Sat: 9 AM - 5 PM</p>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>Dental Clinic | Quality care for every smile.</p>
+
+        <p class="credit">Designed with care. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
